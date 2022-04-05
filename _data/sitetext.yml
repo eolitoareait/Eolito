@@ -1,0 +1,143 @@
+header:
+    title: #EOLITO
+    text: #It's Nice To Meet You
+    #button: Tell Me More
+    #buttonlink: "#project"
+
+services:
+    title: "PROJECT"
+    text: ""
+    section: project
+    list:
+      - title: "Who we are"
+        desc: "Group of students from the Politecnico of Turin created out of the common interest <br> for this project.
+        <br> Most of us attend aerospace engineering, <br> but we have participants from different engineering backgrounds. <br> The team is divided into subgroups by area of interest, the project spans various fields of engineering and is suitable for all willing people."
+        icon: far fa-user #find more at https://fontawesome.com/icons
+      - title: "What are we doing"
+        desc: "We study the feasibility and performance of a vertical axis wind turbine, both from a theoretical and computational point of view, and from a practical point of view, with both virtual and real models. <br> We try to link the teachings that happened with the practical application in the laboratory. "
+        icon: fas fa-wind
+      - title: "What are we aiming for"
+        desc: ""
+        icon: far fa-flag
+
+portfolio:
+    title: "Gallery"
+    text: ""
+    section: portfolio
+    closebutton: "Close"
+
+timeline:
+    title: "Events"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "European Academy of Wind Energy"
+        year: "2017"
+        desc: "Wake Conference, Visby, SE <br>
+        Offshore Wind Energy, London, GB <br>
+        eawe Wind Energy Science Conference, Lyndby, DK <br>
+        13th eawe PhD Seminar, Cranfield, GB <br>
+        WindEurope Conference & Exhibition, Amsterdam, NL <br>"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Key Energy"
+        year: "November 2017"
+        desc: "Italy Rimini Fiera, Expo Centre"
+        image: assets/img/timeline/4.jpg
+        alt:
+      - title: "World Wind Day"
+        year: ""
+        desc: "The event will be an opportunity to underline the role of the wind resource in the field of clean and renewable energy"
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the aligment
+        align: left
+    end: "Be part <br> of our <br> story!"
+
+gallery:
+    title: "GALLERY"
+    text: "Lorem ipsum"
+    section: gallery
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "yes" #"yes/no"
+    list:
+      - title: "polito"
+        url: https://www.polito.it
+        logo: assets/img/clients/polito.png
+      - title: "altair"
+        url: https://www.altair.com
+        logo: assets/img/clients/altair.jpg
+
+team:
+    title: "TEAM ORGANIZATION"
+    text: ""
+    subtext: Testo.
+    section: team
+
+    people:
+      - name: "Management"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        #social:
+        #  - url: https://twitter.com
+        #    icon: fab fa-twitter
+        #  - url: https://facebook.com
+        #    icon: fab fa-facebook-f
+        #  - url: https://linkedin.com
+        #    icon: fab fa-linkedin-in
+      - name: "Mechanical"
+        role: "Lead Marketer"
+        image: assets/img/team/500x500.jpg
+        #social:
+        #  - url: https://twitter.com
+        #    icon: fab fa-twitter
+        #  - url: https://facebook.com
+        #    icon: fab fa-facebook-f
+        #  - url: https://linkedin.com
+        #    icon: fab fa-linkedin-in
+      - name: "Matlab"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        #social:
+        #  - url: https://twitter.com
+        #    icon: fab fa-twitter
+        #  - url: https://facebook.com
+        #    icon: fab fa-facebook-f
+        #  - url: https://linkedin.com
+        #    icon: fab fa-linkedin-in
+      - name: "Experimental"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+      - name: "CFD"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+
+contact:
+    title: "Contact Us"
+    text: "mail@eolito.eu"
+    section: contact
+
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://www.facebook.com/EolitoTeam
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/company/eolito-engineering-student-team/about/
+        icon: "fab fa-linkedin-in"
+      - url: https://www.instagram.com/eolito_team/
+        icon: "fab fa-instagram"
+      - url: https://www.youtube.com/channel/UC-Ez5eUFpK5rb7QTLLbaHUg
+        icon: "fab fa-youtube yt"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

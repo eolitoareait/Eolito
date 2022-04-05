@@ -1,0 +1,15 @@
+nav:
+  - title: "PROJECT"
+    section: project
+
+  - title: "GALLERY"
+    section: portfolio
+
+  - title: "EVENTS"
+    section: timeline
+
+  - title: "TEAM"
+    section: team
+
+  - title: "Contact"
+    section: contact
