@@ -10,8 +10,7 @@ services:
     section: project
     list:
       - title: "Who we are"
-        desc: "Group of students from the Politecnico of Turin created out of the common interest <br> for this project.
-        <br> Most of us attend aerospace engineering, <br> but we have participants from different engineering backgrounds. <br> The team is divided into subgroups by area of interest, the project spans various fields of engineering and is suitable for all willing people."
+        desc: "Group of students from different engineering backgrounds of Politecnico di Torino."
         icon: far fa-user #find more at https://fontawesome.com/icons
       - title: "What are we doing"
         desc: "We study the feasibility and performance of a vertical axis wind turbine, both from a theoretical and computational point of view, and from a practical point of view, with both virtual and real models. <br> We try to link the teachings that happened with the practical application in the laboratory. "
