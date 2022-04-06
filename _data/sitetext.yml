@@ -13,10 +13,10 @@ services:
         desc: "Group of students from different engineering backgrounds of Politecnico di Torino."
         icon: far fa-user #find more at https://fontawesome.com/icons
       - title: "What are we doing"
-        desc: "We study the feasibility and performance of a vertical axis wind turbine, both from a theoretical and computational point of view, and from a practical point of view, with both virtual and real models. <br> We try to link the teachings that happened with the practical application in the laboratory. "
+        desc: "We study the feasibility and performance of a vertical axis wind turbine."
         icon: fas fa-wind
       - title: "What are we aiming for"
-        desc: ""
+        desc: "Making a high efficiency wind turbine within everyone's reach to produce clean energy."
         icon: far fa-flag
 
 portfolio:
