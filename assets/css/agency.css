@@ -84,7 +84,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 /*portfolio-link per la sezione team*/
 #portfolio .portfolio-item .portfolio-team { position: relative; z-index: 100; left: 0; margin-left: 0; text-align: center; color: #fff; display: block; max-width: 300px; margin: 0 auto; cursor: pointer; }
 
-#portfolio .portfolio-item .portfolio-team .portfolio-hover { position: absolute; border-radius: 100%; width: 100px; height: 100px; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(102, 204, 255, 0.9); }
+#portfolio .portfolio-item .portfolio-team .portfolio-hover { position: absolute; border-radius: 100%; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(102, 204, 255, 0.9); }
 
 #portfolio .portfolio-item .portfolio-team .portfolio-hover:hover { opacity: 1; }
 
